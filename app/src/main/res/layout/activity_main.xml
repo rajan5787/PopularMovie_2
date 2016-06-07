@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-
 <fragment android:id="@+id/fragment_movie_list"
-android:name="com.example.rajan.popularmovie_2.fragment.MovieListFragment"
-xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context="com.example.rajan.popularmovie_2.MainActivity"
-tools:layout="@android:layout/list_content"/>
+    android:name="com.example.rajan.popularmovie_2.fragment.MovieListFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajan.popularmovie_2.MainActivity"
+    tools:layout="@android:layout/list_content"/>
