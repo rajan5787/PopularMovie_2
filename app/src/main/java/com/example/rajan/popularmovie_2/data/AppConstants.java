@@ -1,7 +1,7 @@
 package com.example.rajan.popularmovie_2.data;
 
 /**
- * Created by Archit Shah on 4/9/2016.
+ * Created by rajan on 6/6/2016.
  */
 public final class AppConstants {
 

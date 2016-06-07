@@ -8,7 +8,7 @@ import com.example.rajan.popularmovie_2.fragment.MovieListFragment;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * Created by rajan on 4/9/2016.
+ * Created by rajan on 6/6/2016.
  */
 public class Movie implements Parcelable {
 

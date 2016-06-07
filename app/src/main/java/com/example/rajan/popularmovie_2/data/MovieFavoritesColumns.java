@@ -11,6 +11,7 @@ import net.simonvt.schematic.annotation.Unique;
  */
 public interface MovieFavoritesColumns {
 
+
     @DataType(DataType.Type.INTEGER) @PrimaryKey @AutoIncrement public static final String _ID = "_id";
     @DataType(DataType.Type.INTEGER) @Unique @NotNull public static final String MOVIE_ID = "movie_id";
     @DataType(DataType.Type.TEXT)  public static final String TITLE = "title";

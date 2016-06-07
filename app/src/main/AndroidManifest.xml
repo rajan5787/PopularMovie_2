@@ -27,6 +27,15 @@
             android:theme="@style/CollapsingTheme"/>
         <activity android:name=".MainActivity"
             android:theme="@style/AppTheme"></activity>
+
+
+        <provider
+            android:name="com.example.rajan.popularmovie_2.data.generated.MovieProvider"
+            android:authorities="com.example.rajan.popularmovie_2.data.MovieProvider"
+            android:exported="false"
+            android:syncable="true"/>
+
     </application>
+
 
 </manifest>

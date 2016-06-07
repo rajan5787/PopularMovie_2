@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.ArrayList;
 
 /**
- * Created by Archit Shah on 4/10/2016.
+ * Created by rajan on 6/6/2016.
  */
 public class MovieList {
 

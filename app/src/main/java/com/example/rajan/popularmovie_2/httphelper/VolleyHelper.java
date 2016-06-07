@@ -10,7 +10,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
 /**
- * Created by Archit Shah on 4/10/2016.
+ * Created by rajan on 6/6/2016.
  */
 public class VolleyHelper {
     private static VolleyHelper mInstance;

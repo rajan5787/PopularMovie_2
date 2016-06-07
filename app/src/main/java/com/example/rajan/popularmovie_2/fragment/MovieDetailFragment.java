@@ -78,6 +78,7 @@ public class MovieDetailFragment extends BaseFragment {
     private MovieDetailCallbacks movieDetailCallbacks;
 
     public MovieDetailFragment() {
+        // Required empty public constructor
     }
 
     @Override
@@ -256,6 +257,7 @@ public class MovieDetailFragment extends BaseFragment {
                 } else {
                     Toast.makeText(mContext, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
 
@@ -270,6 +272,7 @@ public class MovieDetailFragment extends BaseFragment {
                     reviewsFragment.setArguments(bundle);
 
                     if (mIsMultiPane) {
+//                    getFragmentManager().beginTransaction().replace(R.id.detail_container, reviewsFragment).commit();
                         ReviewDialog reviewDialog = ReviewDialog.getInstance(bundle);
                         reviewDialog.show(getFragmentManager(), "ReviewDialog");
 

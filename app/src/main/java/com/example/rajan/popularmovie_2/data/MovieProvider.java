@@ -9,12 +9,12 @@ import net.simonvt.schematic.annotation.InexactContentUri;
 import net.simonvt.schematic.annotation.TableEndpoint;
 
 /**
- * Created by rajan on 7/6/16.
+ * Created by rajan on 7/6/2016.
  */
 @ContentProvider(authority = MovieProvider.AUTHORITY, database = MovieDatabase.class)
 public final class MovieProvider {
 
-    public static final String AUTHORITY = "com.example.rajan.popularmovie_2.data.Movieprovider";
+    public static final String AUTHORITY = "com.example.rajan.popularmovie_2.data.MovieProvider";
     static final Uri BASE_CONTENT_URI = Uri.parse("content://" + AUTHORITY);
 
     interface Path {
