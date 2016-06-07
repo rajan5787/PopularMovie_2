@@ -6,11 +6,11 @@
 
     <fragment
         android:id="@+id/fragment_movie_list"
-        android:name="com.portfolio.archit.popularmovie.fragments.MovieListFragment"
+        android:name="com.example.rajan.popularmovie_2.fragment.MovieListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
-        tools:context="com.portfolio.archit.popularmovie.activity.MainActivity"
+        tools:context="com.example.rajan.popularmovie_2.MainActivity"
         tools:layout="@android:layout/list_content"/>
 
     <RelativeLayout
